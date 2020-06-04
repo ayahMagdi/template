@@ -1034,8 +1034,8 @@ nav .dropdown-menu .dropdown-item a
 
 /*******************************************************************/
 
-@media (min-width: 300px) (max-width: 992px){
-	.container {width: 600px;margin: auto}
+@media (min-width: 400px) and (max-width: 900px){
+	.container {width: 680px;margin: auto}
 	nav{
 		width: 100%
 	}
