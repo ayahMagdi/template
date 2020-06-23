@@ -64,17 +64,17 @@ $(function(){
 
   })
 
-  $('.loading .loading-container').fadeOut(5000 , function(){
+  $('.loading .loading-container').fadeOut(3000 , function(){
 
-    $(this).parent().fadeOut(5000 , function(){
+    $(this).parent().fadeOut(3000 , function(){
 
        $('body').css('overflow' ,'auto');
 
        $(this).remove();
 
-    })
+    });
 
-  })
+  });
 
 });
 
